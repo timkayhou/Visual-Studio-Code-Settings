@@ -5,8 +5,8 @@
   "workbench.editor.untitled.hint": "hidden",
   "workbench.productIconTheme": "fluent-icons",
   "sync.gist": "53391dc534c63c148a7d7f890f7e4334",
-  "sync.autoUpload": false,
-  "sync.autoDownload": false,
+  "sync.autoUpload": true,
+  "sync.autoDownload": true,
   "settingsSync.ignoredExtensions": [],
   "terminal.integrated.fontFamily": "'Jetbrains Mono', Consolas",
   "terminal.integrated.defaultProfile.windows": "PowerShell",
@@ -174,5 +174,6 @@
   },
   "eslint.nodeEnv": "",
   "omnisharp.disableMSBuildDiagnosticWarning": true,
-  "security.workspace.trust.banner": "never"
+  "security.workspace.trust.banner": "never",
+  "sync.quietSync": true
 }
