@@ -1,5 +1,3 @@
-globalStorage
-snippets
-sync
-workspaceStorage
-syncLocalSettings.json
+*
+!.gitignore
+!settings.json
