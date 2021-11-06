@@ -1,0 +1,178 @@
+{
+  "workbench.colorTheme": "Visual Studio Dark",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.untitled.hint": "hidden",
+  "workbench.productIconTheme": "fluent-icons",
+  "sync.gist": "53391dc534c63c148a7d7f890f7e4334",
+  "sync.autoUpload": false,
+  "sync.autoDownload": false,
+  "settingsSync.ignoredExtensions": [],
+  "terminal.integrated.fontFamily": "'Jetbrains Mono', Consolas",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.automationShell.windows": "",
+  "terminal.integrated.automationShell.linux": "",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell",
+      "path": "pwsh",
+      "args": [
+        "-NoProfile",
+        "-nologo"
+      ]
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "PowerShell--nologo": {
+      "path": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+      "args": [
+        "-NoProfile",
+        "-nologo"
+      ]
+    }
+  },
+  "terminal.integrated.profiles.linux": {
+    "zsh (login)": {
+      "path": "zsh",
+      "args": ["-l"]
+    }
+  },
+  "javascript.validate.enable":false,
+  "git.ignoreLegacyWarning": true,
+  "git.suggestSmartCommit": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "remote.SSH.enableAzureIntegration": true,
+  "remote.SSH.showLoginTerminal": true,
+  "remote.SSH.remotePlatform": {
+    "Moridaira": "linux"
+  },
+  "liveshare.audio.startCallOnShare": false,
+  "liveshare.audio.joinCallBehavior": "accept",
+  "liveshare.presence": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "diffEditor.codeLens": true,
+  "scm.inputFontFamily": "'Jetbrains Mono', Consolas",
+  "explorer.confirmDelete": false,
+  "editor.fontFamily": "'Jetbrains Mono', Consolas",
+  "editor.codeLensFontFamily": "'Jetbrains Mono', Consolas",
+  "editor.accessibilitySupport": "off",
+  "editor.lineNumbers": "on",
+  "editor.suggestSelection": "first",
+  "editor.tabCompletion": "on",
+  "editor.wordWrap": "bounded",
+  "editor.maxTokenizationLineLength": 10000,
+  "editor.accessibilityPageSize": 50,
+  "editor.rulers": [256],
+  "editor.fontSize": 20,
+  "editor.tabSize": 2,
+  "editor.renderLineHighlightOnlyWhenFocus": true,
+  "editor.suggest.shareSuggestSelections": true,
+  "editor.cursorSmoothCaretAnimation": false,
+  "editor.renderControlCharacters": true,
+  "editor.suggest.showStatusBar": true,
+  "editor.smoothScrolling": false,
+  "editor.columnSelection": false,
+  "editor.mouseWheelZoom": true,
+  "editor.fontLigatures": true,
+  "editor.linkedEditing": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true,
+    "source.fixAll.eslint": true
+  },
+  "files.autoSave": "onFocusChange",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.autoGuessEncoding": true,
+  "files.trimFinalNewlines": true,
+  "files.associations": {
+    "*.ts": "typescript",
+    "*.tsx": "typescriptreact",
+    "*.js": "javascript",
+    "*.jsx": "javascriptreact",
+    "*.vue": "vue",
+    "*.wpy": "vue",
+    "*.wxml": "html",
+    "*.wxss": "css"
+  },
+  "files.exclude": {
+    "**/*.js": {
+      "when": "$(basename).ts"
+    },
+    "**/node_modules": true,
+    "**/.DS_Store": true,
+    "**/vendor": true,
+    "**/.vscode": true,
+    "**/.vs": true,
+    "**/.svn": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/var": true,
+    "**/*.meta": true,
+    "library/": true,
+    "local/": true,
+    "temp/": true
+  },
+  "search.exclude": {
+    "build.js": true,
+    "**/bower_components": true,
+    "**/node_modules": true,
+    "**/target": true,
+    "**/logs": true,
+    "build/": true,
+    "temp/": true,
+    "library/": true,
+    "**/*.anim": true
+  },
+  "search.showLineNumbers": true,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "gitlens.advanced.messages": {
+    "suppressGitMissingWarning": true
+  },
+  "cSpell.userWords": [],
+  "cSpell.language": "en,en-US",
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]"
+  ],
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+  "diffEditor.maxComputationTime": 0,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "eslint.nodeEnv": "",
+  "omnisharp.disableMSBuildDiagnosticWarning": true,
+  "security.workspace.trust.banner": "never"
+}
