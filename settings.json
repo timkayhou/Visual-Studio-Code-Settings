@@ -5,8 +5,8 @@
   "workbench.editor.untitled.hint": "hidden",
   "workbench.productIconTheme": "fluent-icons",
   "sync.gist": "53391dc534c63c148a7d7f890f7e4334",
-  "sync.autoUpload": true,
-  "sync.autoDownload": true,
+  "sync.autoUpload": false,
+  "sync.autoDownload": false,
   "settingsSync.ignoredExtensions": [],
   "terminal.integrated.fontFamily": "'Jetbrains Mono', Consolas",
   "terminal.integrated.defaultProfile.windows": "PowerShell",
@@ -28,7 +28,9 @@
         "${env:windir}\\Sysnative\\cmd.exe",
         "${env:windir}\\System32\\cmd.exe"
       ],
-      "args": [],
+      "args": [
+        "/k"
+      ],
       "icon": "terminal-cmd"
     },
     "Git Bash": {
@@ -175,5 +177,5 @@
   "eslint.nodeEnv": "",
   "omnisharp.disableMSBuildDiagnosticWarning": true,
   "security.workspace.trust.banner": "never",
-  "sync.quietSync": true
+  "sync.quietSync": false
 }
