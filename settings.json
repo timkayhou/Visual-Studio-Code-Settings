@@ -177,5 +177,6 @@
   "eslint.nodeEnv": "",
   "omnisharp.disableMSBuildDiagnosticWarning": true,
   "security.workspace.trust.banner": "never",
-  "sync.quietSync": false
+  "sync.quietSync": false,
+  "vscode-edge-devtools.mirrorEdits": true
 }
