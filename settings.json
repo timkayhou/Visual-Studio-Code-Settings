@@ -1,4 +1,5 @@
 {
+  "[csharp]": {"editor.defaultFormatter": "ms-dotnettools.csharp"},
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -173,6 +174,5 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.list.smoothScrolling": true,
   "workbench.productIconTheme": "fluent-icons",
-"workbench.startupEditor": "newUntitledFile",
-"redhat.telemetry.enabled": true
+  "workbench.startupEditor": "newUntitledFile"
 }
