@@ -1,5 +1,7 @@
 {
-  "[csharp]": {"editor.defaultFormatter": "ms-dotnettools.csharp"},
+  "[jade]": {
+    "editor.defaultFormatter": "ducfilan.pug-formatter"
+  },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -42,6 +44,7 @@
   "editor.lineNumbers": "on",
   "editor.linkedEditing": true,
   "editor.maxTokenizationLineLength": 10000,
+  "editor.minimap.size": "fill",
   "editor.mouseWheelZoom": true,
   "editor.renderControlCharacters": true,
   "editor.renderLineHighlightOnlyWhenFocus": true,
@@ -107,6 +110,7 @@
   "omnisharp.organizeImportsOnFormat": true,
   "prettier.requireConfig": true,
   "prettier.requirePragma": true,
+  "redhat.telemetry.enabled": true,
   "remote.SSH.enableAzureIntegration": true,
   "remote.SSH.remotePlatform": {"Moridaira": "linux"},
   "remote.SSH.showLoginTerminal": true,
