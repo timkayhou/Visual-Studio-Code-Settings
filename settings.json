@@ -21,6 +21,7 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[xml]": {"editor.defaultFormatter": "DotJoshJohnson.xml"},
   "bookmarks.useWorkaroundForFormatters": true,
   "cSpell.language": "en,en-US",
   "cSpell.userWords": [],
