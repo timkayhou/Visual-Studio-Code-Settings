@@ -1,4 +1,5 @@
 {
+  "GitCommitPlugin.MaxSubjectWords": 64,
   "[csharp]": {"editor.defaultFormatter": "ms-dotnettools.csharp"},
   "[jade]": {
     "editor.defaultFormatter": "ducfilan.pug-formatter"
