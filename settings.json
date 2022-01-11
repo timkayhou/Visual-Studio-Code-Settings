@@ -7,7 +7,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.html-language-features"
   },
   "[jade]": {
     "editor.defaultFormatter": "ducfilan.pug-formatter"
@@ -254,5 +254,10 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.list.smoothScrolling": true,
   "workbench.productIconTheme": "fluent-icons",
-  "workbench.startupEditor": "newUntitledFile"
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editorAssociations": {
+    "*.png": "luna.editor",
+    "*.ico": "luna.editor",
+    "*.jpg": "luna.editor"
+  }
 }
