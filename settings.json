@@ -37,7 +37,15 @@
     "editor.defaultFormatter": "DotJoshJohnson.xml"
   },
   "bookmarks.useWorkaroundForFormatters": true,
+  "cSpell.caseSensitive": true,
+  "cSpell.enableFiletypes": [
+    "!json"
+  ],
   "cSpell.language": "en,en-US",
+  "cSpell.minWordLength": 4,
+  "cSpell.spellCheckOnlyWorkspaceFiles": true,
+  "cSpell.suggestionNumChanges": 3,
+  "cSpell.useGitignore": true,
   "cSpell.userWords": [],
   "debug.allowBreakpointsEverywhere": true,
   "debug.console.closeOnEnd": true,
