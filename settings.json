@@ -84,6 +84,25 @@
   "emmet.includeLanguages": {
     "javascript": "javascriptrect"
   },
+  "errorLens.excludeBySource": [
+    "cSpell"
+  ],
+  "errorLens.fontSize": "70%",
+  "errorLens.gutterIconSet": "defaultOutline",
+  "errorLens.gutterIconSize": "70%",
+  "errorLens.gutterIconsEnabled": true,
+  "errorLens.margin": "16%",
+  "errorLens.messageMaxChars": 64,
+  "errorLens.messageTemplate": "$message",
+  "errorLens.padding": "16px",
+  "errorLens.scrollbarHackEnabled": true,
+  "errorLens.severityText": [
+    "ERROR",
+    "WARNING",
+    "INFO",
+    "HINT"
+  ],
+  "errorLens.statusBarColorsEnabled": true,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "files.associations": {
@@ -251,13 +270,13 @@
   "workbench.colorTheme": "Visual Studio Dark",
   "workbench.editor.untitled.hint": "hidden",
   "workbench.editor.wrapTabs": true,
+  "workbench.editorAssociations": {
+    "*.ico": "luna.editor",
+    "*.jpg": "luna.editor",
+    "*.png": "luna.editor"
+  },
   "workbench.iconTheme": "material-icon-theme",
   "workbench.list.smoothScrolling": true,
   "workbench.productIconTheme": "fluent-icons",
-  "workbench.startupEditor": "newUntitledFile",
-  "workbench.editorAssociations": {
-    "*.png": "luna.editor",
-    "*.ico": "luna.editor",
-    "*.jpg": "luna.editor"
-  }
+  "workbench.startupEditor": "newUntitledFile"
 }
