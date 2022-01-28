@@ -167,6 +167,9 @@
     "rgba(255,0,255,0.05)"
   ],
   "javascript.validate.enable": false,
+  "less.compile": {
+    "out": "${workspaceRoot}\\assets\\style\\CSS\\"
+  },
   "liveServer.settings.donotShowInfoMsg": true,
   "npm.runSilent": true,
   "omnisharp.disableMSBuildDiagnosticWarning": true,
