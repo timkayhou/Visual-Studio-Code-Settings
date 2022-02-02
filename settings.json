@@ -36,6 +36,11 @@
   "[xml]": {
     "editor.defaultFormatter": "DotJoshJohnson.xml"
   },
+  "autoHide.autoHidePanel": true,
+  "autoHide.autoHideSideBar": true,
+  "autoHide.hideOnOpen": true,
+  "autoHide.panelDelay": 60000,
+  "autoHide.sideBarDelay": 1000,
   "bookmarks.useWorkaroundForFormatters": true,
   "cSpell.caseSensitive": true,
   "cSpell.enableFiletypes": [
