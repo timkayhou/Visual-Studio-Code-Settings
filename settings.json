@@ -173,7 +173,7 @@
   ],
   "javascript.validate.enable": false,
   "less.compile": {
-    "out": "${workspaceRoot}\\src\\assets\\styles\\css\\"
+    "out": ""
   },
   "liveServer.settings.donotShowInfoMsg": true,
   "npm.runSilent": true,
