@@ -173,7 +173,7 @@
   ],
   "javascript.validate.enable": false,
   "less.compile": {
-    "out": "${workspaceRoot}\\assets\\styles\\css\\"
+    "out": "${workspaceRoot}\\src\\assets\\styles\\css\\"
   },
   "liveServer.settings.donotShowInfoMsg": true,
   "npm.runSilent": true,
@@ -295,5 +295,6 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.list.smoothScrolling": true,
   "workbench.productIconTheme": "fluent-icons",
-  "workbench.startupEditor": "newUntitledFile"
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.inlineSuggest.enabled": true
 }
