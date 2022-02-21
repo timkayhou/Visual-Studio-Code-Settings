@@ -206,7 +206,6 @@
   "prettier.useTabs": false,
   "prettier.vueIndentScriptAndStyle": false,
   "redhat.telemetry.enabled": true,
-  "remote.SSH.enableAzureIntegration": true,
   "remote.SSH.remotePlatform": {
     "Moridaira": "linux"
   },
