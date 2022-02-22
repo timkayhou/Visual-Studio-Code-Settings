@@ -56,12 +56,14 @@
   "debug.console.closeOnEnd": true,
   "debug.openExplorerOnEnd": true,
   "diffEditor.codeLens": true,
+  "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.maxComputationTime": 0,
   "editor.accessibilityPageSize": 50,
   "editor.accessibilitySupport": "off",
   "editor.bracketPairColorization.enabled": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true,
     "source.organizeImports": true
   },
   "editor.codeLensFontFamily": "'Jetbrains Mono', Consolas",
@@ -74,6 +76,7 @@
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
+  "editor.inlineSuggest.enabled": true,
   "editor.lineNumbers": "on",
   "editor.linkedEditing": true,
   "editor.maxTokenizationLineLength": 10000,
@@ -294,6 +297,5 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.list.smoothScrolling": true,
   "workbench.productIconTheme": "fluent-icons",
-  "workbench.startupEditor": "newUntitledFile",
-  "editor.inlineSuggest.enabled": true
+  "workbench.startupEditor": "newUntitledFile"
 }
