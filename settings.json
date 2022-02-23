@@ -24,6 +24,10 @@
   "[less]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[markdown]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true
+  },
   "[sql]": {
     "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
   },
@@ -64,7 +68,8 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
     "source.fixAll.stylelint": true,
-    "source.organizeImports": true
+    "source.organizeImports": true,
+    "source.fixAll.markdownlint": true
   },
   "editor.codeLensFontFamily": "'Jetbrains Mono', Consolas",
   "editor.cursorSmoothCaretAnimation": true,
