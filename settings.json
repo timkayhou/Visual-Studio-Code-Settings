@@ -25,8 +25,8 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[markdown]": {
-    "editor.formatOnSave": true,
-    "editor.formatOnPaste": true
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
   },
   "[sql]": {
     "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
@@ -47,10 +47,29 @@
   "bookmarks.useWorkaroundForFormatters": true,
   "cSpell.caseSensitive": true,
   "cSpell.enableFiletypes": [
-    "!json"
+    "!svg",
+    "!dll",
+    "!log",
   ],
-  "cSpell.language": "en,en-US",
+  "cSpell.ignorePaths": [
+    "package.json",
+    "**/package.json",
+    "yarn.lock",
+    "**/yarn.lock",
+    "node_modules",
+    "**/node_modules",
+    "**/node_modules/**",
+    "node_modules/**",
+    "vscode-extension",
+    ".git",
+    ".gitignore",
+    "*ignore",
+    "*rc.json",
+  ],
+  "cSpell.language": "en, en-US",
+  "cSpell.maxNumberOfProblems": 99,
   "cSpell.minWordLength": 4,
+  "cSpell.numSuggestions": 9,
   "cSpell.spellCheckOnlyWorkspaceFiles": true,
   "cSpell.suggestionNumChanges": 3,
   "cSpell.useGitignore": true,
@@ -66,9 +85,9 @@
   "editor.bracketPairColorization.enabled": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
+    "source.fixAll.markdownlint": true,
     "source.fixAll.stylelint": true,
-    "source.organizeImports": true,
-    "source.fixAll.markdownlint": true
+    "source.organizeImports": true
   },
   "editor.codeLensFontFamily": "'Jetbrains Mono', Consolas",
   "editor.cursorSmoothCaretAnimation": true,
