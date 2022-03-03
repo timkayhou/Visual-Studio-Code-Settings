@@ -1,5 +1,31 @@
 {
   "recommendations": [
-    "ChakrounAnas.turbo-console-log"
+    "chakrounanas.turbo-console-log",
+    "shardulm94.trailing-spaces",
+    "pflannery.vscode-versionlens",
+    "gruntfuggly.todo-tree",
+    "shan.code-settings-sync",
+    "timonwong.shellcheck",
+    "alefragnani.project-manager",
+    "hoovercj.vscode-power-mode",
+    "pkief.material-icon-theme",
+    "davidanson.vscode-markdownlint",
+    "oderwat.indent-rainbow",
+    "wix.vscode-import-cost",
+    "kisstkondoros.vscode-gutter-preview",
+    "eamodio.gitlens",
+    "github.copilot",
+    "redjue.git-commit-plugin",
+    "mhutchie.git-graph",
+    "miguelsolorio.fluent-icons",
+    "mkxml.vscode-filesize",
+    "usernamehw.errorlens",
+    "moshfeu.compare-folders",
+    "intellsmi.comment-translate",
+    "naumovs.color-highlight",
+    "streetsidesoftware.code-spell-checker",
+    "alefragnani.bookmarks",
+    "aaron-bond.better-comments",
+    "msjsdiag.debugger-for-chrome"
   ]
 }
