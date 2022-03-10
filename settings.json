@@ -45,6 +45,10 @@
   "diffEditor.maxComputationTime": 0,
   "editor.accessibilityPageSize": 256,
   "editor.accessibilitySupport": "off",
+  "editor.autoClosingBrackets": "always",
+  "editor.autoClosingDelete": "always",
+  "editor.autoClosingOvertype": "always",
+  "editor.autoClosingQuotes": "always",
   "editor.bracketPairColorization.enabled": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
@@ -53,7 +57,6 @@
     "source.fixAll.stylelint": true,
     "source.organizeImports": true
   },
-  "editor.codeLensFontFamily": "'Jetbrains Mono', Consolas",
   "editor.cursorSmoothCaretAnimation": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.foldingImportsByDefault": true,
@@ -66,7 +69,7 @@
   "editor.inlineSuggest.enabled": true,
   "editor.lineNumbers": "on",
   "editor.linkedEditing": true,
-  "editor.maxTokenizationLineLength": 10000,
+  "editor.maxTokenizationLineLength": 8192,
   "editor.minimap.size": "fill",
   "editor.mouseWheelZoom": true,
   "editor.renderControlCharacters": true,
@@ -100,28 +103,21 @@
   "errorLens.statusBarColorsEnabled": true,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
-  "files.associations": {
-    "*.js": "javascript",
-    "*.jsx": "javascriptreact",
-    "*.ts": "typescript",
-    "*.tsx": "typescriptreact",
-    "*.vue": "vue"
-  },
   "files.autoGuessEncoding": true,
   "files.autoSave": "onFocusChange",
   "files.eol": "\n",
   "files.exclude": {
-    "**/*.js": {"when": "$(basename).ts"},
+    "**/*.js": { "when": "$(basename).ts" },
     "**/.DS_Store": false,
     "**/.git": true,
     "**/.hg": false,
     "**/.svn": true,
     "**/.vs": true,
     "**/CVS": false,
-    "**/Thumbs.db": false,
     "**/node_modules": true,
     "library/": true,
     "local/": true,
+    "log/": true,
     "temp/": true
   },
   "files.insertFinalNewline": true,
@@ -132,7 +128,7 @@
   "git.enableSmartCommit": true,
   "git.ignoreLegacyWarning": true,
   "git.suggestSmartCommit": true,
-  "gitlens.advanced.messages": {"suppressGitMissingWarning": true},
+  "gitlens.advanced.messages": { "suppressGitMissingWarning": true },
   "gitlens.codeLens.includeSingleLineSymbols": true,
   "guides.active.color.dark": "rgba(102,204,255,0.75)",
   "i18n-ally.enabledParsers": ["ts", "js", "json"],
@@ -146,7 +142,7 @@
     "rgba(255,0,255,0.05)"
   ],
   "javascript.validate.enable": false,
-  "less.compile": {"out": ""},
+  "less.compile": { "out": "" },
   "liveServer.settings.donotShowInfoMsg": true,
   "npm.runSilent": true,
   "powermode.combo.location": "off",
@@ -199,17 +195,14 @@
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.defaultProfile.windows": "PowerShell",
   "terminal.integrated.fontFamily": "'Jetbrains Mono', Consolas",
-  "terminal.integrated.profiles.linux": {"zsh (login)": {"args": ["-l"], "path": "zsh"}},
+  "terminal.integrated.profiles.linux": { "zsh (login)": { "args": ["-l"], "path": "zsh" } },
   "terminal.integrated.profiles.windows": {
     "Command Prompt": {
       "args": ["/k"],
       "icon": "terminal-cmd",
-      "path": [
-        "${env:windir}\\Sysnative\\cmd.exe",
-        "${env:windir}\\System32\\cmd.exe"
-      ]
+      "path": ["${env:windir}\\Sysnative\\cmd.exe", "${env:windir}\\System32\\cmd.exe"]
     },
-    "Git Bash": {"source": "Git Bash"},
+    "Git Bash": { "source": "Git Bash" },
     "PowerShell": {
       "args": ["-NoProfile", "-nologo"],
       "icon": "terminal-powershell",
@@ -221,15 +214,7 @@
       "path": "C:\\Program Files\\PowerShell\\7\\pwsh.exe"
     }
   },
-  "todo-tree.general.tags": [
-    "BUG",
-    "HACK",
-    "FIXME",
-    "TODO",
-    "XXX",
-    "[ ]",
-    "[x]"
-  ],
+  "todo-tree.general.tags": ["BUG", "HACK", "FIXME", "TODO", "XXX", "[ ]", "[x]"],
   "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
   "workbench.colorTheme": "Visual Studio Dark",
   "workbench.editor.untitled.hint": "hidden",
@@ -242,5 +227,9 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.list.smoothScrolling": true,
   "workbench.productIconTheme": "fluent-icons",
-  "workbench.startupEditor": "newUntitledFile"
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.foldingMaximumRegions": 1024,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.bracketPairsHorizontal": true,
+  "editor.hover.delay": 256
 }
