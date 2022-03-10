@@ -1,37 +1,18 @@
 {
-  "GitCommitPlugin.MaxSubjectWords": 64,
   "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
+    "editor.defaultFormatter": "stylelint.vscode-stylelint"
   },
   "[less]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "stylelint.vscode-stylelint"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "stylelint.vscode-stylelint"
   },
   "[markdown]": {
     "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
   },
   "[sql]": {
     "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[vue]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[xml]": {
-    "editor.defaultFormatter": "DotJoshJohnson.xml"
   },
   "bookmarks.useWorkaroundForFormatters": true,
   "cSpell.caseSensitive": true,
@@ -113,7 +94,8 @@
   "editor.wordWrapColumn": 80,
   "editor.wrappingIndent": "indent",
   "emmet.includeLanguages": {
-    "javascript": "javascriptrect"
+    "vue-html": "html",
+    "javascript": "javascriptreact"
   },
   "errorLens.excludeBySource": [
     "cSpell"
@@ -199,14 +181,6 @@
   },
   "liveServer.settings.donotShowInfoMsg": true,
   "npm.runSilent": true,
-  "omnisharp.disableMSBuildDiagnosticWarning": true,
-  "omnisharp.organizeImportsOnFormat": true,
-  "peacock.affectDebuggingStatusBar": true,
-  "peacock.affectEditorGroupBorder": true,
-  "peacock.affectPanelBorder": true,
-  "peacock.affectSideBarBorder": true,
-  "peacock.affectStatusAndTitleBorders": true,
-  "peacock.affectTabActiveBorder": true,
   "powermode.combo.location": "off",
   "powermode.enabled": true,
   "powermode.shake.intensity": 1,
