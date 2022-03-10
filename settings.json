@@ -19,7 +19,8 @@
   "cSpell.enableFiletypes": [
     "!svg",
     "!dll",
-    "!log"
+    "!log",
+    "!config",
   ],
   "cSpell.ignorePaths": [
     "package.json",
