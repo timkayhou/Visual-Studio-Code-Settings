@@ -1,16 +1,10 @@
 {
   "GitCommitPlugin.MaxSubjectWords": 64,
-  "[csharp]": {
-    "editor.defaultFormatter": "ms-dotnettools.csharp"
-  },
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "[jade]": {
-    "editor.defaultFormatter": "ducfilan.pug-formatter"
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -18,15 +12,11 @@
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
   "[less]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[markdown]": {
-    "editor.formatOnPaste": true,
-    "editor.formatOnSave": true
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
   },
   "[sql]": {
     "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
@@ -37,19 +27,18 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[xml]": {
     "editor.defaultFormatter": "DotJoshJohnson.xml"
   },
-  "autoHide.autoHidePanel": false,
-  "autoHide.autoHideSideBar": true,
-  "autoHide.hideOnOpen": false,
-  "autoHide.sideBarDelay": 10000,
   "bookmarks.useWorkaroundForFormatters": true,
   "cSpell.caseSensitive": true,
   "cSpell.enableFiletypes": [
     "!svg",
     "!dll",
-    "!log",
+    "!log"
   ],
   "cSpell.ignorePaths": [
     "package.json",
@@ -66,7 +55,7 @@
     ".git",
     ".gitignore",
     "*ignore",
-    "*rc.json",
+    "*rc.json"
   ],
   "cSpell.language": "en, en-US",
   "cSpell.maxNumberOfProblems": 99,
@@ -88,6 +77,7 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
     "source.fixAll.markdownlint": true,
+    "source.fixAll.prettier": true,
     "source.fixAll.stylelint": true,
     "source.organizeImports": true
   },
@@ -189,6 +179,11 @@
   },
   "gitlens.codeLens.includeSingleLineSymbols": true,
   "guides.active.color.dark": "rgba(102,204,255,0.75)",
+  "i18n-ally.enabledParsers": [
+    "ts",
+    "js",
+    "json"
+  ],
   "indentRainbow.colors": [
     "rgba(255,0,0,0.05)",
     "rgba(255,165,0,0.05)",
@@ -212,7 +207,9 @@
   "peacock.affectSideBarBorder": true,
   "peacock.affectStatusAndTitleBorders": true,
   "peacock.affectTabActiveBorder": true,
+  "powermode.combo.location": "off",
   "powermode.enabled": true,
+  "powermode.shake.intensity": 1,
   "prettier.arrowParens": "always",
   "prettier.bracketSpacing": true,
   "prettier.embeddedLanguageFormatting": "auto",
@@ -232,6 +229,9 @@
   "prettier.trailingComma": "none",
   "prettier.useTabs": false,
   "prettier.vueIndentScriptAndStyle": false,
+  "projectManager.git.baseFolders": [
+    "H:\\"
+  ],
   "redhat.telemetry.enabled": true,
   "remote.SSH.remotePlatform": {
     "Moridaira": "linux"
