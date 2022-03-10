@@ -5,23 +5,18 @@
   "[less]": {
     "editor.defaultFormatter": "stylelint.vscode-stylelint"
   },
-  "[scss]": {
-    "editor.defaultFormatter": "stylelint.vscode-stylelint"
-  },
   "[markdown]": {
     "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "stylelint.vscode-stylelint"
   },
   "[sql]": {
     "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
   },
   "bookmarks.useWorkaroundForFormatters": true,
   "cSpell.caseSensitive": true,
-  "cSpell.enableFiletypes": [
-    "!svg",
-    "!dll",
-    "!log",
-    "!config",
-  ],
+  "cSpell.enableFiletypes": ["!svg", "!dll", "!log", "!config"],
   "cSpell.ignorePaths": [
     "package.json",
     "package-lock.json",
@@ -48,7 +43,7 @@
   "diffEditor.codeLens": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.maxComputationTime": 0,
-  "editor.accessibilityPageSize": 50,
+  "editor.accessibilityPageSize": 256,
   "editor.accessibilitySupport": "off",
   "editor.bracketPairColorization.enabled": true,
   "editor.codeActionsOnSave": {
@@ -64,7 +59,7 @@
   "editor.foldingImportsByDefault": true,
   "editor.fontFamily": "'Jetbrains Mono', Consolas",
   "editor.fontLigatures": true,
-  "editor.fontSize": 20,
+  "editor.fontSize": 16,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
@@ -76,9 +71,7 @@
   "editor.mouseWheelZoom": true,
   "editor.renderControlCharacters": true,
   "editor.renderLineHighlightOnlyWhenFocus": true,
-  "editor.rulers": [
-    256
-  ],
+  "editor.rulers": [256],
   "editor.scrollbar.verticalScrollbarSize": 5,
   "editor.smoothScrolling": true,
   "editor.suggest.shareSuggestSelections": true,
@@ -90,12 +83,10 @@
   "editor.wordWrapColumn": 80,
   "editor.wrappingIndent": "indent",
   "emmet.includeLanguages": {
-    "vue-html": "html",
-    "javascript": "javascriptreact"
+    "javascript": "javascriptreact",
+    "vue-html": "html"
   },
-  "errorLens.excludeBySource": [
-    "cSpell"
-  ],
+  "errorLens.excludeBySource": ["cSpell"],
   "errorLens.fontSize": "70%",
   "errorLens.gutterIconSet": "defaultOutline",
   "errorLens.gutterIconSize": "70%",
@@ -105,12 +96,7 @@
   "errorLens.messageTemplate": "$message",
   "errorLens.padding": "16px",
   "errorLens.scrollbarHackEnabled": true,
-  "errorLens.severityText": [
-    "ERROR",
-    "WARNING",
-    "INFO",
-    "HINT"
-  ],
+  "errorLens.severityText": ["ERROR", "WARNING", "INFO", "HINT"],
   "errorLens.statusBarColorsEnabled": true,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
@@ -119,27 +105,21 @@
     "*.jsx": "javascriptreact",
     "*.ts": "typescript",
     "*.tsx": "typescriptreact",
-    "*.vue": "vue",
-    "*.wpy": "vue",
-    "*.wxml": "html",
-    "*.wxss": "css"
+    "*.vue": "vue"
   },
   "files.autoGuessEncoding": true,
   "files.autoSave": "onFocusChange",
+  "files.eol": "\n",
   "files.exclude": {
-    "**/*.js": {
-      "when": "$(basename).ts"
-    },
-    "**/*.meta": true,
-    "**/.DS_Store": true,
+    "**/*.js": {"when": "$(basename).ts"},
+    "**/.DS_Store": false,
     "**/.git": true,
-    "**/.hg": true,
+    "**/.hg": false,
     "**/.svn": true,
     "**/.vs": true,
-    "**/CVS": true,
+    "**/CVS": false,
+    "**/Thumbs.db": false,
     "**/node_modules": true,
-    "**/var": true,
-    "**/vendor": true,
     "library/": true,
     "local/": true,
     "temp/": true
@@ -152,16 +132,10 @@
   "git.enableSmartCommit": true,
   "git.ignoreLegacyWarning": true,
   "git.suggestSmartCommit": true,
-  "gitlens.advanced.messages": {
-    "suppressGitMissingWarning": true
-  },
+  "gitlens.advanced.messages": {"suppressGitMissingWarning": true},
   "gitlens.codeLens.includeSingleLineSymbols": true,
   "guides.active.color.dark": "rgba(102,204,255,0.75)",
-  "i18n-ally.enabledParsers": [
-    "ts",
-    "js",
-    "json"
-  ],
+  "i18n-ally.enabledParsers": ["ts", "js", "json"],
   "indentRainbow.colors": [
     "rgba(255,0,0,0.05)",
     "rgba(255,165,0,0.05)",
@@ -172,9 +146,7 @@
     "rgba(255,0,255,0.05)"
   ],
   "javascript.validate.enable": false,
-  "less.compile": {
-    "out": ""
-  },
+  "less.compile": {"out": ""},
   "liveServer.settings.donotShowInfoMsg": true,
   "npm.runSilent": true,
   "powermode.combo.location": "off",
@@ -199,13 +171,9 @@
   "prettier.trailingComma": "none",
   "prettier.useTabs": false,
   "prettier.vueIndentScriptAndStyle": false,
-  "projectManager.git.baseFolders": [
-    "H:\\"
-  ],
+  "projectManager.git.baseFolders": ["H:\\"],
   "redhat.telemetry.enabled": true,
-  "remote.SSH.remotePlatform": {
-    "Moridaira": "linux"
-  },
+  "remote.SSH.remotePlatform": {"Moridaira": "linux"},
   "remote.SSH.showLoginTerminal": true,
   "scm.inputFontFamily": "'Jetbrains Mono', Consolas",
   "search.exclude": {
@@ -231,42 +199,25 @@
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.defaultProfile.windows": "PowerShell",
   "terminal.integrated.fontFamily": "'Jetbrains Mono', Consolas",
-  "terminal.integrated.profiles.linux": {
-    "zsh (login)": {
-      "args": [
-        "-l"
-      ],
-      "path": "zsh"
-    }
-  },
+  "terminal.integrated.profiles.linux": {"zsh (login)": {"args": ["-l"], "path": "zsh"}},
   "terminal.integrated.profiles.windows": {
     "Command Prompt": {
-      "args": [
-        "/k"
-      ],
+      "args": ["/k"],
       "icon": "terminal-cmd",
       "path": [
         "${env:windir}\\Sysnative\\cmd.exe",
         "${env:windir}\\System32\\cmd.exe"
       ]
     },
-    "Git Bash": {
-      "source": "Git Bash"
-    },
+    "Git Bash": {"source": "Git Bash"},
     "PowerShell": {
-      "args": [
-        "-NoProfile",
-        "-nologo"
-      ],
+      "args": ["-NoProfile", "-nologo"],
       "icon": "terminal-powershell",
       "path": "pwsh",
       "source": "PowerShell"
     },
     "PowerShell--nologo": {
-      "args": [
-        "-NoProfile",
-        "-nologo"
-      ],
+      "args": ["-NoProfile", "-nologo"],
       "path": "C:\\Program Files\\PowerShell\\7\\pwsh.exe"
     }
   },
