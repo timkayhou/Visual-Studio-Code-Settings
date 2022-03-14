@@ -44,6 +44,18 @@
   "cSpell.suggestionNumChanges": 3,
   "cSpell.useGitignore": true,
   "cSpell.userWords": [],
+  "code-runner.executorMap": {
+    "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "go": "go run",
+    "html": "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\"",
+    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+    "javascript": "node",
+    "perl": "perl",
+    "php": "C:\\Program Files\\php\\php.exe",
+    "python": "python",
+    "ruby": "C:\\Ruby23-x64\\bin\\ruby.exe"
+  },
+  "code-runner.saveFileBeforeRun": true,
   "compareFolders.ignoreEmptyLines": true,
   "compareFolders.ignoreWhiteSpaces": true,
   "debug.allowBreakpointsEverywhere": true,
