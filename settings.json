@@ -55,6 +55,9 @@
     "python": "python",
     "ruby": "C:\\Ruby23-x64\\bin\\ruby.exe"
   },
+  "code-runner.executorMapByFileExtension": {
+    ".vbs": "cscript //Nologo"
+  },
   "code-runner.saveFileBeforeRun": true,
   "compareFolders.ignoreEmptyLines": true,
   "compareFolders.ignoreWhiteSpaces": true,
