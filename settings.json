@@ -17,7 +17,6 @@
     "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
   },
   "autoimport.filesToScan": "**/*.{ts,tsx,js,jsx,vue}",
-  "autoimport.showNotifications": true,
   "autoimport.useSemiColon": false,
   "blockman.n01LineHeight": 0,
   "bookmarks.useWorkaroundForFormatters": true,
@@ -66,6 +65,7 @@
   "debug.console.closeOnEnd": true,
   "debug.openExplorerOnEnd": true,
   "diffEditor.codeLens": true,
+  "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.maxComputationTime": 0,
   "diffEditor.maxFileSize": 99,
   "diffEditor.wordWrap": "off",
@@ -86,7 +86,7 @@
   "editor.cursorSmoothCaretAnimation": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.foldingImportsByDefault": true,
-  "editor.foldingMaximumRegions": 1024,
+  "editor.foldingMaximumRegions": 10000,
   "editor.fontFamily": "'Jetbrains Mono', Consolas",
   "editor.fontLigatures": true,
   "editor.fontSize": 16,
@@ -137,6 +137,7 @@
   "errorLens.statusBarColorsEnabled": true,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
+  "files.associations": { "*.svg": "html" },
   "files.autoGuessEncoding": true,
   "files.autoSave": "onFocusChange",
   "files.autoSaveDelay": 999,
@@ -194,6 +195,7 @@
   "javascript.referencesCodeLens.enabled": true,
   "javascript.referencesCodeLens.showOnAllFunctions": true,
   "javascript.suggest.completeFunctionCalls": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
   "js/ts.implicitProjectConfig.checkJs": true,
   "npm.runSilent": true,
   "powermode.combo.location": "off",
@@ -282,6 +284,7 @@
   "typescript.inlayHints.variableTypes.enabled": true,
   "typescript.referencesCodeLens.enabled": true,
   "typescript.referencesCodeLens.showOnAllFunctions": true,
+  "vetur.validation.script": false,
   "workbench.colorCustomizations": {
     "editor.lineHighlightBackground": "#1073cf2d",
     "editor.lineHighlightBorder": "#9fced11f"
