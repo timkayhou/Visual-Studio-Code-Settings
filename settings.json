@@ -256,13 +256,13 @@
     },
     "Git Bash": { "source": "Git Bash" },
     "PowerShell": {
-      "args": ["-NoProfile", "-nologo"],
+      "args": ["-NoProfile", "-Nologo"],
       "icon": "terminal-powershell",
       "path": "pwsh",
       "source": "PowerShell"
     },
     "PowerShell--nologo": {
-      "args": ["-NoProfile", "-nologo"],
+      "args": ["-NoProfile", "-Nologo"],
       "path": "C:\\Program Files\\PowerShell\\7\\pwsh.exe"
     }
   },
