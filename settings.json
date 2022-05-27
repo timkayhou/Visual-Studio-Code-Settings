@@ -246,6 +246,7 @@
   "sync.quietSync": false,
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.enablePersistentSessions": false,
   "terminal.integrated.fontFamily": "'Jetbrains Mono', Consolas",
   "terminal.integrated.profiles.linux": { "zsh (login)": { "args": ["-l"], "path": "zsh" } },
   "terminal.integrated.profiles.windows": {
