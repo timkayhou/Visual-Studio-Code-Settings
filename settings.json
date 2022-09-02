@@ -8,7 +8,11 @@
   },
   "[markdown]": {
     "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
-    "editor.quickSuggestions": true
+    "editor.quickSuggestions": {
+      "comments": "on",
+      "strings": "on",
+      "other": "on"
+    }
   },
   "[scss]": {
     "editor.defaultFormatter": "stylelint.vscode-stylelint"
@@ -96,7 +100,7 @@
   "editor.guides.bracketPairs": false,
   "editor.guides.indentation": false,
   "editor.hover.delay": 256,
-  "editor.inlayHints.enabled": false,
+  "editor.inlayHints.enabled": "on",
   "editor.inlineSuggest.enabled": true,
   "editor.lineNumbers": "on",
   "editor.linkedEditing": true,
@@ -207,7 +211,7 @@
   "prettier.endOfLine": "lf",
   "prettier.htmlWhitespaceSensitivity": "css",
   "prettier.insertPragma": false,
-  "prettier.jsxBracketSameLine": false,
+  "prettier.bracketSameLine": false,
   "prettier.jsxSingleQuote": false,
   "prettier.printWidth": 128,
   "prettier.proseWrap": "preserve",
