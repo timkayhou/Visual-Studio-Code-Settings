@@ -1,4 +1,5 @@
 {
+  "GitCommitPlugin.ShowEmoji": false,
   "[css]": {
     "editor.defaultFormatter": "stylelint.vscode-stylelint"
   },
@@ -7,11 +8,7 @@
   },
   "[markdown]": {
     "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
-    "editor.quickSuggestions": {
-      "comments": "on",
-      "strings": "on",
-      "other": "on"
-    }
+    "editor.quickSuggestions": {"comments": "on", "other": "on", "strings": "on"}
   },
   "[scss]": {
     "editor.defaultFormatter": "stylelint.vscode-stylelint"
@@ -56,9 +53,9 @@
     "javascript": "node",
     "perl": "perl",
     "php": "${env:csidlprogramfiles}\\php\\php.exe",
-    "python": "python",
+    "python": "python"
   },
-  "code-runner.executorMapByFileExtension": { ".vbs": "cscript //Nologo" },
+  "code-runner.executorMapByFileExtension": {".vbs": "cscript //Nologo"},
   "code-runner.saveFileBeforeRun": true,
   "compareFolders.ignoreEmptyLines": true,
   "compareFolders.ignoreWhiteSpaces": true,
@@ -104,7 +101,7 @@
   "editor.maxTokenizationLineLength": 8192,
   "editor.minimap.size": "fill",
   "editor.mouseWheelZoom": true,
-  "editor.quickSuggestions": { "comments": true, "other": true, "strings": true },
+  "editor.quickSuggestions": {"comments": true, "other": true, "strings": true},
   "editor.renderControlCharacters": true,
   "editor.renderLineHighlightOnlyWhenFocus": true,
   "editor.rulers": [256],
@@ -138,13 +135,13 @@
   "errorLens.statusBarColorsEnabled": true,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
-  "files.associations": { "*.svg": "html" },
+  "files.associations": {"*.svg": "html"},
   "files.autoGuessEncoding": true,
   "files.autoSave": "onFocusChange",
   "files.autoSaveDelay": 999,
   "files.eol": "\n",
   "files.exclude": {
-    "**/*.js": { "when": "$(basename).ts" },
+    "**/*.js": {"when": "$(basename).ts"},
     "**/.DS_Store": false,
     "**/.git": true,
     "**/.hg": false,
@@ -166,7 +163,7 @@
   "git.enableSmartCommit": true,
   "git.ignoreLegacyWarning": true,
   "git.suggestSmartCommit": true,
-  "gitlens.advanced.messages": { "suppressGitMissingWarning": true },
+  "gitlens.advanced.messages": {"suppressGitMissingWarning": true},
   "gitlens.codeLens.includeSingleLineSymbols": true,
   "guides.active.color.dark": "rgba(102,204,255,0.75)",
   "i18n-ally.enabledParsers": ["ts", "js", "json"],
@@ -202,20 +199,21 @@
   "powermode.combo.location": "off",
   "powermode.enabled": true,
   "powermode.shake.intensity": 1,
-  "prettier.arrowParens": "always",
+  "prettier.arrowParens": "avoid",
+  "prettier.bracketSameLine": false,
   "prettier.bracketSpacing": true,
   "prettier.embeddedLanguageFormatting": "auto",
   "prettier.endOfLine": "lf",
   "prettier.htmlWhitespaceSensitivity": "css",
   "prettier.insertPragma": false,
-  "prettier.bracketSameLine": false,
-  "prettier.jsxSingleQuote": false,
-  "prettier.printWidth": 128,
+  "prettier.jsxSingleQuote": true,
+  "prettier.printWidth": 64,
   "prettier.proseWrap": "preserve",
   "prettier.quoteProps": "as-needed",
   "prettier.requireConfig": true,
   "prettier.requirePragma": true,
   "prettier.semi": false,
+  "prettier.singleAttributePerLine": true,
   "prettier.singleQuote": true,
   "prettier.tabWidth": 2,
   "prettier.trailingComma": "none",
@@ -245,14 +243,17 @@
   "terminal.integrated.defaultProfile.windows": "PowerShell",
   "terminal.integrated.enablePersistentSessions": false,
   "terminal.integrated.fontFamily": "'Jetbrains Mono', Consolas",
-  "terminal.integrated.profiles.linux": { "zsh (login)": { "args": ["-l"], "path": "zsh" } },
+  "terminal.integrated.profiles.linux": {"zsh (login)": {"args": ["-l"], "path": "zsh"}},
   "terminal.integrated.profiles.windows": {
     "Command Prompt": {
       "args": ["/k"],
       "icon": "terminal-cmd",
-      "path": ["${env:windir}\\Sysnative\\cmd.exe", "${env:windir}\\System32\\cmd.exe"]
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ]
     },
-    "Git Bash": { "source": "Git Bash" },
+    "Git Bash": {"source": "Git Bash"},
     "PowerShell": {
       "args": ["-NoProfile", "-Nologo"],
       "icon": "terminal-powershell",
@@ -265,7 +266,15 @@
     }
   },
   "todo-tree.general.enableFileWatcher": true,
-  "todo-tree.general.tags": ["BUG", "HACK", "FIXME", "TODO", "XXX", "[ ]", "[x]"],
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]"
+  ],
   "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
   "typescript.format.insertSpaceAfterConstructor": true,
   "typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
@@ -302,6 +311,5 @@
   "workbench.list.smoothScrolling": true,
   "workbench.productIconTheme": "fluent-icons",
   "workbench.quickOpen.preserveInput": true,
-  "workbench.startupEditor": "newUntitledFile",
-  "GitCommitPlugin.ShowEmoji": false
+  "workbench.startupEditor": "newUntitledFile"
 }
