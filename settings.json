@@ -219,7 +219,7 @@
   "prettier.trailingComma": "none",
   "prettier.useTabs": false,
   "prettier.vueIndentScriptAndStyle": false,
-  "projectManager.git.baseFolders": ["H:\\"],
+  "projectManager.git.baseFolders": ["${env:csidlmydocuments}\\"],
   "redhat.telemetry.enabled": true,
   "scm.inputFontFamily": "'Jetbrains Mono', Consolas",
   "search.exclude": {
