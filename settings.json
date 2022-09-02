@@ -1,5 +1,5 @@
 {
-  "Notes.notesLocation": "C:\\Users\\Admin\\OneDrive\\Documents\\Notes",
+  "Notes.notesLocation": "${env:homepath}\\OneDrive\\Documents\\Notes",
   "[css]": {
     "editor.defaultFormatter": "stylelint.vscode-stylelint"
   },
@@ -22,7 +22,6 @@
   },
   "autoimport.filesToScan": "**/*.{ts,tsx,js,jsx,vue}",
   "autoimport.useSemiColon": false,
-  "blockman.n01LineHeight": 0,
   "bookmarks.useWorkaroundForFormatters": true,
   "cSpell.blockCheckingWhenLineLengthGreaterThan": 9999,
   "cSpell.caseSensitive": true,
