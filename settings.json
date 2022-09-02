@@ -1,5 +1,4 @@
 {
-  "Notes.notesLocation": "${env:homepath}\\OneDrive\\Documents\\Notes",
   "[css]": {
     "editor.defaultFormatter": "stylelint.vscode-stylelint"
   },
@@ -52,13 +51,12 @@
   "code-runner.executorMap": {
     "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
     "go": "go run",
-    "html": "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\"",
+    "html": "\"${env:csidlprogramfiles}\\Google\\Chrome\\Application\\chrome.exe\"",
     "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
     "javascript": "node",
     "perl": "perl",
-    "php": "C:\\Program Files\\php\\php.exe",
+    "php": "${env:csidlprogramfiles}\\php\\php.exe",
     "python": "python",
-    "ruby": "C:\\Ruby23-x64\\bin\\ruby.exe"
   },
   "code-runner.executorMapByFileExtension": { ".vbs": "cscript //Nologo" },
   "code-runner.saveFileBeforeRun": true,
@@ -267,7 +265,7 @@
     },
     "PowerShell--nologo": {
       "args": ["-NoProfile", "-Nologo"],
-      "path": "C:\\Program Files\\PowerShell\\7\\pwsh.exe"
+      "path": "${env:csidlprogramfiles}\\PowerShell\\7\\pwsh.exe"
     }
   },
   "todo-tree.general.enableFileWatcher": true,
