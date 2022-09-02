@@ -194,7 +194,7 @@
   "javascript.referencesCodeLens.showOnAllFunctions": true,
   "javascript.suggest.completeFunctionCalls": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "js/ts.implicitProjectConfig.checkJs": true,
+  "js/ts.implicitProjectConfig.checkJs": false,
   "npm.runSilent": true,
   "powermode.combo.location": "off",
   "powermode.enabled": true,
@@ -291,6 +291,8 @@
   "typescript.inlayHints.variableTypes.enabled": true,
   "typescript.referencesCodeLens.enabled": true,
   "typescript.referencesCodeLens.showOnAllFunctions": true,
+  "window.commandCenter": true,
+  "window.menuBarVisibility": "compact",
   "workbench.colorCustomizations": {
     "editor.lineHighlightBackground": "#1073cf2d",
     "editor.lineHighlightBorder": "#9fced11f"
@@ -308,6 +310,7 @@
     "*.png": "luna.editor"
   },
   "workbench.iconTheme": "material-icon-theme",
+  "workbench.layoutControl.enabled": false,
   "workbench.list.smoothScrolling": true,
   "workbench.productIconTheme": "fluent-icons",
   "workbench.quickOpen.preserveInput": true,
