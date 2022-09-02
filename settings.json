@@ -48,11 +48,11 @@
   "code-runner.executorMap": {
     "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
     "go": "go run",
-    "html": "\"${env:csidlprogramfiles}\\Google\\Chrome\\Application\\chrome.exe\"",
+    "html": "\"%ProgramFiles%\\Google\\Chrome\\Application\\chrome.exe\"",
     "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
     "javascript": "node",
     "perl": "perl",
-    "php": "${env:csidlprogramfiles}\\php\\php.exe",
+    "php": "\"%ProgramFiles%\\php\\php.exe\"",
     "python": "python"
   },
   "code-runner.executorMapByFileExtension": {".vbs": "cscript //Nologo"},
@@ -220,7 +220,7 @@
   "prettier.trailingComma": "none",
   "prettier.useTabs": false,
   "prettier.vueIndentScriptAndStyle": false,
-  "projectManager.git.baseFolders": ["${env:csidlmydocuments}\\"],
+  "projectManager.git.baseFolders": ["%UserProfile%\\Documents\\"],
   "redhat.telemetry.enabled": true,
   "scm.inputFontFamily": "'Jetbrains Mono', Consolas",
   "search.exclude": {
@@ -254,8 +254,8 @@
       "args": ["/k"],
       "icon": "terminal-cmd",
       "path": [
-        "${env:windir}\\Sysnative\\cmd.exe",
-        "${env:windir}\\System32\\cmd.exe"
+        "%WinDir%\\Sysnative\\cmd.exe",
+        "%WinDir%\\System32\\cmd.exe"
       ]
     },
     "Git Bash": {"source": "Git Bash"},
@@ -264,7 +264,7 @@
       "icon": "terminal-powershell",
       "path": "pwsh",
       "source": "PowerShell"
-    },
+    }
   },
   "todo-tree.general.enableFileWatcher": true,
   "todo-tree.general.tags": [
