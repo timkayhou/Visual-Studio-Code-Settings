@@ -265,10 +265,6 @@
       "path": "pwsh",
       "source": "PowerShell"
     },
-    "PowerShell--nologo": {
-      "args": ["-NoProfile", "-Nologo"],
-      "path": "${env:csidlprogramfiles}\\PowerShell\\7\\pwsh.exe"
-    }
   },
   "todo-tree.general.enableFileWatcher": true,
   "todo-tree.general.tags": [
