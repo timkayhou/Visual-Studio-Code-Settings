@@ -3,6 +3,9 @@
   "[css]": {
     "editor.defaultFormatter": "stylelint.vscode-stylelint"
   },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[less]": {
     "editor.defaultFormatter": "stylelint.vscode-stylelint"
   },
@@ -70,10 +73,8 @@
   "diffEditor.wordWrap": "off",
   "editor.accessibilityPageSize": 256,
   "editor.accessibilitySupport": "off",
-  "editor.autoClosingBrackets": "always",
   "editor.autoClosingDelete": "always",
   "editor.autoClosingOvertype": "always",
-  "editor.autoClosingQuotes": "always",
   "editor.bracketPairColorization.enabled": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
