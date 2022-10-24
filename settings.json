@@ -3,6 +3,9 @@
   "[css]": {
     "editor.defaultFormatter": "stylelint.vscode-stylelint"
   },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -78,11 +81,11 @@
   "editor.autoClosingOvertype": "always",
   "editor.bracketPairColorization.enabled": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
+    "source.fixAll.eslint": false,
     "source.fixAll.markdownlint": true,
-    "source.fixAll.prettier": true,
+    "source.fixAll.prettier": false,
     "source.fixAll.stylelint": true,
-    "source.organizeImports": true
+    "source.organizeImports": false
   },
   "editor.cursorSmoothCaretAnimation": true,
   "editor.defaultFormatter": "dbaeumer.vscode-eslint",
@@ -93,7 +96,7 @@
   "editor.fontSize": 16,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
-  "editor.formatOnType": true,
+  "editor.formatOnSaveMode": "modifications",
   "editor.guides.bracketPairs": false,
   "editor.guides.indentation": false,
   "editor.hover.delay": 256,
@@ -160,7 +163,7 @@
   "files.insertFinalNewline": true,
   "files.participants.timeout": 9999,
   "files.trimFinalNewlines": true,
-  "files.trimTrailingWhitespace": true,
+  "files.trimTrailingWhitespace": false,
   "git.autofetch": true,
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
