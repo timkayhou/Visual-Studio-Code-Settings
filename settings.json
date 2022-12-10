@@ -210,6 +210,7 @@
   "settingsSync.ignoredExtensions": [],
   "sortLines.sortEntireFile": true,
   "sql-formatter.uppercase": true,
+  "sync.gist": "d01034b869563299f43668ba71aeab5b",
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.defaultProfile.windows": "PowerShell",
   "terminal.integrated.enablePersistentSessions": false,
@@ -252,7 +253,6 @@
   "typescript.referencesCodeLens.enabled": true,
   "typescript.referencesCodeLens.showOnAllFunctions": true,
   "window.commandCenter": true,
-  "window.menuBarVisibility": "compact",
   "workbench.colorCustomizations": {
     "editor.lineHighlightBackground": "#1073cf2d",
     "editor.lineHighlightBorder": "#9fced11f"
