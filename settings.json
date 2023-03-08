@@ -14,7 +14,11 @@
   },
   "[markdown]": {
     "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
-    "editor.quickSuggestions": {"comments": "on", "other": "on", "strings": "on"}
+    "editor.quickSuggestions": {
+      "comments": "on",
+      "other": "on",
+      "strings": "on"
+    }
   },
   "[scss]": {
     "editor.defaultFormatter": "vscode.css-language-features"
@@ -29,7 +33,12 @@
   "cSpell.caseSensitive": true,
   "cSpell.checkLimit": 99,
   "cSpell.diagnosticLevel": "Hint",
-  "cSpell.enableFiletypes": ["!svg", "!dll", "!log", "!config"],
+  "cSpell.enableFiletypes": [
+    "!svg",
+    "!dll",
+    "!log",
+    "!config"
+  ],
   "cSpell.ignorePaths": [
     "package.json",
     "package-lock.json",
@@ -61,7 +70,9 @@
     "php": "\"%ProgramFiles%\\php\\php.exe\"",
     "python": "python"
   },
-  "code-runner.executorMapByFileExtension": {".vbs": "cscript //Nologo"},
+  "code-runner.executorMapByFileExtension": {
+    ".vbs": "cscript //Nologo"
+  },
   "code-runner.saveFileBeforeRun": true,
   "commentTranslate.targetLanguage": "zh-CN",
   "compareFolders.ignoreEmptyLines": true,
@@ -79,8 +90,10 @@
   "editor.autoClosingDelete": "always",
   "editor.autoClosingOvertype": "always",
   "editor.bracketPairColorization.enabled": true,
-  "editor.codeActionsOnSave": {"source.fixAll.markdownlint": true},
-  "editor.cursorSmoothCaretAnimation": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.markdownlint": true
+  },
+  "editor.cursorSmoothCaretAnimation": "on",
   "editor.foldingImportsByDefault": true,
   "editor.foldingMaximumRegions": 10000,
   "editor.fontFamily": "'Jetbrains Mono', Consolas",
@@ -99,10 +112,16 @@
   "editor.maxTokenizationLineLength": 8192,
   "editor.minimap.size": "fill",
   "editor.mouseWheelZoom": true,
-  "editor.quickSuggestions": {"comments": true, "other": true, "strings": true},
+  "editor.quickSuggestions": {
+    "comments": true,
+    "other": true,
+    "strings": true
+  },
   "editor.renderControlCharacters": true,
   "editor.renderLineHighlightOnlyWhenFocus": true,
-  "editor.rulers": [256],
+  "editor.rulers": [
+    256
+  ],
   "editor.scrollbar.verticalScrollbarSize": 5,
   "editor.smoothScrolling": true,
   "editor.suggest.localityBonus": true,
@@ -119,7 +138,9 @@
     "javascript": "javascriptreact",
     "vue-html": "html"
   },
-  "errorLens.excludeBySource": ["cSpell"],
+  "errorLens.excludeBySource": [
+    "cSpell"
+  ],
   "errorLens.fontSize": "70%",
   "errorLens.gutterIconSet": "defaultOutline",
   "errorLens.gutterIconSize": "70%",
@@ -129,17 +150,27 @@
   "errorLens.messageTemplate": "$message",
   "errorLens.padding": "16px",
   "errorLens.scrollbarHackEnabled": true,
-  "errorLens.severityText": ["ERROR", "WARNING", "INFO", "HINT"],
+  "errorLens.severityText": [
+    "ERROR",
+    "WARNING",
+    "INFO",
+    "HINT"
+  ],
   "errorLens.statusBarColorsEnabled": true,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
-  "files.associations": {"*.svg": "html"},
+  "files.associations": {
+    "*.dcm": "vba",
+    "*.svg": "html"
+  },
   "files.autoGuessEncoding": true,
   "files.autoSave": "onFocusChange",
   "files.autoSaveDelay": 999,
   "files.eol": "\n",
   "files.exclude": {
-    "**/*.js": {"when": "$(basename).ts"},
+    "**/*.js": {
+      "when": "$(basename).ts"
+    },
     "**/.DS_Store": false,
     "**/.git": true,
     "**/.hg": false,
@@ -161,10 +192,16 @@
   "git.enableSmartCommit": true,
   "git.ignoreLegacyWarning": true,
   "git.suggestSmartCommit": true,
-  "gitlens.advanced.messages": {"suppressGitMissingWarning": true},
+  "gitlens.advanced.messages": {
+    "suppressGitMissingWarning": true
+  },
   "gitlens.codeLens.includeSingleLineSymbols": true,
   "guides.active.color.dark": "rgba(102,204,255,0.75)",
-  "i18n-ally.enabledParsers": ["ts", "js", "json"],
+  "i18n-ally.enabledParsers": [
+    "ts",
+    "js",
+    "json"
+  ],
   "indentRainbow.colors": [
     "rgba(255,0,0,0.05)",
     "rgba(255,165,0,0.05)",
@@ -190,7 +227,9 @@
   "powermode.combo.location": "off",
   "powermode.enabled": true,
   "powermode.shake.intensity": 1,
-  "projectManager.git.baseFolders": ["%UserProfile%\\Documents\\"],
+  "projectManager.git.baseFolders": [
+    "%UserProfile%\\Documents\\"
+  ],
   "redhat.telemetry.enabled": true,
   "scm.inputFontFamily": "'Jetbrains Mono', Consolas",
   "search.exclude": {
@@ -215,19 +254,33 @@
   "terminal.integrated.defaultProfile.windows": "PowerShell",
   "terminal.integrated.enablePersistentSessions": false,
   "terminal.integrated.fontFamily": "'Jetbrains Mono', Consolas",
-  "terminal.integrated.profiles.linux": {"zsh (login)": {"args": ["-l"], "path": "zsh"}},
+  "terminal.integrated.profiles.linux": {
+    "zsh (login)": {
+      "args": [
+        "-l"
+      ],
+      "path": "zsh"
+    }
+  },
   "terminal.integrated.profiles.windows": {
     "Command Prompt": {
-      "args": ["/k"],
+      "args": [
+        "/k"
+      ],
       "icon": "terminal-cmd",
       "path": [
         "%WinDir%\\Sysnative\\cmd.exe",
         "%WinDir%\\System32\\cmd.exe"
       ]
     },
-    "Git Bash": {"source": "Git Bash"},
+    "Git Bash": {
+      "source": "Git Bash"
+    },
     "PowerShell": {
-      "args": ["-NoProfile", "-Nologo"],
+      "args": [
+        "-NoProfile",
+        "-Nologo"
+      ],
       "icon": "terminal-powershell",
       "path": "pwsh",
       "source": "PowerShell"
@@ -253,6 +306,7 @@
   "typescript.referencesCodeLens.enabled": true,
   "typescript.referencesCodeLens.showOnAllFunctions": true,
   "window.commandCenter": true,
+  "window.zoomLevel": -2,
   "workbench.colorCustomizations": {
     "editor.lineHighlightBackground": "#1073cf2d",
     "editor.lineHighlightBorder": "#9fced11f"
