@@ -321,6 +321,7 @@
     "editor.lineHighlightBackground": "#1073cf2d",
     "editor.lineHighlightBorder": "#9fced11f"
   },
+  "workbench.colorTheme": "Visual Studio Dark",
   "workbench.commandPalette.history": 32,
   "workbench.commandPalette.preserveInput": true,
   "workbench.editor.historyBasedLanguageDetection": true,
